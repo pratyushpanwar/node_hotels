@@ -8,8 +8,9 @@ const mongoURL = process.env.MONGODB_URL;
 
 //setup mongoDB connection
 
+//mongoose.connect(mongoURL)
 mongoose.connect(mongoURL)
- 
+
 //get default connection
 
 const db=mongoose.connection;
